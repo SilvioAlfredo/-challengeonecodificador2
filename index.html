@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="esp">
+	<head>
+		<meta charset="utf-8">
+		<title>Encriptador de texto</title>
+        <link rel = "stylesheet" href="reset.css">
+        <link rel="stylesheet"  href="style.css">
+        
+	</head>
+
+	<body>
+		<header class = "encabezado">
+			<h1>Encriptador de texto ONE</h1>
+			<img id = "logo" src="./img/1638241687335.jpg" alt="logo de alura">
+			
+		</header>
+		<main >
+			<section class="container">
+                <div class="containerA">
+			
+                    <textarea type="text" class= "entrada" placeholder="Introduzca el texto aquí..."></textarea>
+
+                    <h6 id="span"> Solo letras minúsculas y sin acento.</h6>
+                    
+					<div class="containerButton">
+                    
+                        <button type="button" class="encriptar">Encriptar</button>
+                        <button type="button" class="desencriptar">Desencriptar</button>		
+                    
+                    </div>
+                
+                </div>
+                
+                <div class="containerB">
+
+					<ul class="elementosA">
+						<li><img src="./img/Muñeco.png"></li>
+						<li><h6>Ningún mensaje fue encontrado</h6></li>
+						<li><p>Ingresa el texto que desees encriptar o desencriptar.</p></li>
+					</ul>
+
+                    <textarea type="text" class="salida"></textarea>
+                    <button type="button" class="copiar">Copiar</button>
+                </div>
+
+            </section>
+			
+		</main>
+		<footer class = "pie">
+			<p>&copy Riveros Silvio A.</p>
+		</footer>
+	</body>
+
+	<script src="encriptar.js"></script>
+	<script src="desencriptar.js"></script>
+</html>
+
