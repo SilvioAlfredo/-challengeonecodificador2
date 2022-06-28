@@ -11,6 +11,7 @@ botonEncriptar.addEventListener("click",function(event){
 	const textoEncriptado = encriptar(entrada.value);
 	salida.value = textoEncriptado;
 	elementos.style.opacity = 0;
+  salida.style.display = "flex";
 	elementos.parentNode.removeChild(elementos);
 
 });

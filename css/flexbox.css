@@ -1,0 +1,88 @@
+.encabezado{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.container{
+    display: flex;
+}
+.containerA{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.containerB{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.entrada{
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+.elementosA{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.salida{
+    
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+}
+/*Responsive*/
+@media(max-width: 768px){
+    .tituloencabezado{
+        font-size: 3.5em;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .containerA{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .containerB{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+}
+@media(max-width: 480px){
+    .tituloencabezado{
+        font-size: 2.5em;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .containerA{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .containerB{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .containerButton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

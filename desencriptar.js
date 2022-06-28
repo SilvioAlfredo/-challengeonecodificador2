@@ -10,6 +10,7 @@ botonDesencriptar.addEventListener("click",function(event){
 	const textoDesencriptado = desencriptar(entrada.value);
 	salida.value = textoDesencriptado;
 	elementos.style.opacity = 0;
+  salida.style.display = "flex";
 	elementos.parentNode.removeChild(elementos);
 });
 
